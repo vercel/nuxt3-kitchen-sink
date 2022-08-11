@@ -83,7 +83,6 @@
 		},
 		computed: {
 			currentRoute() {
-				console.log(this.$route);
 				return this.$route.path;
 			},
 			currentTab() {

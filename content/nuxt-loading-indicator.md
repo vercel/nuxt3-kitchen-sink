@@ -16,7 +16,7 @@ Nuxt provides <NuxtLoadingIndicator> to display a progress bar on page navigatio
 </template>
 ```
 
-#tab3
+#tab4
 Result
 ::
 
@@ -43,6 +43,6 @@ Let's customize it using these props.
 </template>
 ```
 
-#tab3
+#tab4
 Result
 ::

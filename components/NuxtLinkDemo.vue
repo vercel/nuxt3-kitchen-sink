@@ -7,7 +7,7 @@
 				new tab. This link is usinf the rel and target attributes.
 			</div>
 			<NuxtLink
-				class="p-2 text-sm font-medium text-white uppercase bg-blue-400 rounded"
+				class="p-3 text-sm font-medium text-dark uppercase bg-primary rounded"
 				to="https://nuxtjs.org"
 				target="_blank"
 				rel="noopener"
@@ -22,10 +22,7 @@
 				This link will route to the /routing page within this application. Click the link below to
 				experience how it works!
 			</div>
-			<NuxtLink
-				class="p-2 text-sm font-medium text-white uppercase bg-blue-400 rounded"
-				to="/routing"
-			>
+			<NuxtLink class="p-3 text-sm font-medium text-dark uppercase bg-primary rounded" to="/">
 				Routing Page
 			</NuxtLink>
 		</div>

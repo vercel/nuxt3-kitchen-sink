@@ -49,7 +49,7 @@ export default eventHandler((event) => {
 });
 ```
 
-#tab3
+#tab4
 Result
 
 ::

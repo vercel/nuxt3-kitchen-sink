@@ -1,5 +1,5 @@
 <template>
-	<div class="absolute z-50 flex-none h-screen p-4 w-60 md:relative">
+	<div class="absolute z-50 flex-none h-screen p-4 w-64 md:relative">
 		<div class="w-full h-full p-5 bg-white border rounded-md shadow-lg border-light">
 			<div class="flex items-center justify-between mb-6">
 				<div class="flex items-center">

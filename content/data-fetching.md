@@ -28,7 +28,7 @@ You can use useFetch to universally fetch from any URL.
 </template>
 ```
 
-#tab3
+#tab4
 Result
 ::
 
@@ -63,7 +63,7 @@ This behaves identically to useFetch with the lazy: true option set, so the asyn
 </script>
 ```
 
-#tab3
+#tab4
 Result
 ::
 
@@ -96,7 +96,7 @@ export default () => {
 <template>Page visits: {{ data }}</template>
 ```
 
-#tab3
+#tab4
 Result
 
 ::

@@ -15,5 +15,8 @@
     "nuxt": "3.0.0-rc.6",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "dedent": "^0.7.0"
   }
 }
