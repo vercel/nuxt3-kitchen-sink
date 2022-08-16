@@ -6,7 +6,9 @@ Nuxt provides `useFetch`, `useLazyFetch`, `useAsyncData` and `useLazyAsyncData` 
 
 You can use useFetch to universally fetch from any URL.
 
-::CodeBlock{componentName="UseFetchDemo"}
+### Code
+
+::CodeBlock
 #tab1
 /pages/index.vue
 #code1
@@ -28,15 +30,19 @@ You can use useFetch to universally fetch from any URL.
 </template>
 ```
 
-#tab4
-Result
 ::
+
+### Result
+
+:UseFetchDemo
 
 ## useLazyFetch
 
 This behaves identically to useFetch with the lazy: true option set, so the async function does not block navigation.
 
-::CodeBlock{componentName="UseLazyFetchDemo"}
+### Code
+
+::CodeBlock
 #tab1
 /pages/index.vue
 #code1
@@ -63,15 +69,19 @@ This behaves identically to useFetch with the lazy: true option set, so the asyn
 </script>
 ```
 
-#tab4
-Result
 ::
+
+### Result
+
+:UseLazyFetchDemo
 
 ## useAsyncData
 
 You can use `useAsyncData` to get access to data that resolves asynchronously. `useFetch` receives a URL and gets that data, whereas `useAsyncData` might have more complex logic. `useFetch(url)` is nearly equivalent to `useAsyncData(url, () => $fetch(url))`
 
-::CodeBlock{componentName="UseAsyncDataDemo"}
+### Code
+
+::CodeBlock
 #tab1
 /server/api/count.ts
 #code1
@@ -96,7 +106,8 @@ export default () => {
 <template>Page visits: {{ data }}</template>
 ```
 
-#tab4
-Result
-
 ::
+
+### Result
+
+:UseAsyncDataDemo

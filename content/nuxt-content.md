@@ -13,17 +13,24 @@ yarn
 yarn add --dev @nuxt/content
 ```
 
-#tab2
+::
+::CodeBlock
+
+#tab1
 npm
-#code2
+#code1
 
 ```js
 npm install --save-dev @nuxt/content
 ```
 
-#tab3
+::
+
+::CodeBlock
+
+#tab1
 pnpm
-#code3
+#code1
 
 ```js
 pnpm add -D @nuxt/content
@@ -56,7 +63,7 @@ To render content pages, add a catch-all route using the ContentDoc component:
 
 ::CodeBlock
 #tab1
-/pages/[...slug].vue
+/pages/\[...slug\].vue
 #code1
 
 ```vue

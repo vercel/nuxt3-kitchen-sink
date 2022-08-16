@@ -1,5 +1,5 @@
 <template>
-	<div class="">
+	<div class="w-full p-6 rounded mb-8 bg-light">
 		<div v-if="pending">Loading ...</div>
 		<div v-else>
 			<div v-for="post in posts" :key="post.id" class="mb-4">

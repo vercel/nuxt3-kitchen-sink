@@ -8,7 +8,7 @@
 </script>
 
 <template>
-	<div>
+	<div class="bg-light p-6 rounded">
 		<div>Hello from the Edge!</div>
 		<div>
 			Your City: <span>{{ info.city }}</span>

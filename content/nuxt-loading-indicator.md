@@ -1,35 +1,17 @@
 # `NuxtLoadingIndicator`
 
-Nuxt provides <NuxtLoadingIndicator> to display a progress bar on page navigation.
-
-::CodeBlock{componentName="NuxtLoadingIndicatorDemo"}
-#tab1
-/pages/index.vue
-#code1
-
-```vue
-<template>
-	<NuxtLayout>
-		<NuxtLoadingIndicator />
-		<NuxtPage />
-	</NuxtLayout>
-</template>
-```
-
-#tab4
-Result
-::
-
-The loading indicator can be customized! It has the following props
+Nuxt provides <NuxtLoadingIndicator> to display a progress bar on page navigation that can be customized! It has the following props
 
 - color: The color of the loading bar.
 - height: Height of the loading bar, in pixels (default 3).
 - duration: Duration of the loading bar, in milliseconds (default 2000).
 - throttle: Throttle the appearing and hiding, in milliseconds (default 200).
 
-Let's customize it using these props.
+Let's use these props to customize our loading indicator.
 
-::CodeBlock{componentName="NuxtLoadingIndicatorDemo"}
+## Code
+
+::CodeBlock
 #tab1
 /pages/index.vue
 #code1
@@ -43,6 +25,8 @@ Let's customize it using these props.
 </template>
 ```
 
-#tab4
-Result
 ::
+
+## Result
+
+:NuxtLoadingIndicatorDemo

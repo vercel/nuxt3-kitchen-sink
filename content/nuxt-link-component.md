@@ -2,7 +2,9 @@
 
 `<NuxtLink>` is a drop-in replacement for the `<a>` tag. It intelligently determines whether the link is internal or external and renders it accordingly with available optimizations (prefetching, default attributes, etc.) You can use it just like a normal link tag, adding target and rel attributes.
 
-::CodeBlock{componentName="NuxtLinkDemo"}
+## Code
+
+::CodeBlock
 #tab1
 /pages/index.vue
 #code1
@@ -27,6 +29,8 @@
 </template>
 ```
 
-#tab4
-Result
 ::
+
+## Result
+
+:NuxtLinkDemo

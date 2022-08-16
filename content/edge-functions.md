@@ -1,6 +1,8 @@
 # Edge Functions
 
-::CodeBlock{componentName="EdgeDemo"}
+## Edge Function Example
+
+::CodeBlock
 #tab1
 /pages/index.vue
 #code1
@@ -31,9 +33,13 @@
 </template>
 ```
 
-#tab2
+::
+
+::CodeBlock
+
+#tab1
 /server/api/info.ts
-#code2
+#code1
 
 ```ts
 export default eventHandler((event) => {
@@ -49,7 +55,8 @@ export default eventHandler((event) => {
 });
 ```
 
-#tab4
-Result
-
 ::
+
+## Result
+
+:EdgeDemo

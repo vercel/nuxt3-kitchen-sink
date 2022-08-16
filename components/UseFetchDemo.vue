@@ -1,5 +1,5 @@
 <template>
-	<div class="">
+	<div class="w-full rounded bg-light p-6 mb-8">
 		<div v-for="post in posts" :key="post.id" class="mb-4">
 			<div class="mb-1 font-bold">
 				{{ post.title }}

@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full">
+	<div class="w-full bg-light p-6 rounded">
 		<div class="mb-6">
 			<div class="mb-2 font-bold">Basic Usage</div>
 			<div class="mb-4 leading-tight">

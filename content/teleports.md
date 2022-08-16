@@ -5,9 +5,9 @@ the DOM, outside of the Vue application. The to target of &lt;Teleport&gt; expec
 selector string or an actual DOM node. Nuxt currently has SSR support for teleports to body
 only, with client-side support for other targets using a &lt;ClientOnly&gt; wrapper.
 
-:Teleports
+## Code
 
-<!-- ::CodeBlock{componentName="TeleportsDemo"}
+::CodeBlock
 #tab1
 /pages/index.vue
 #code1
@@ -24,6 +24,8 @@ only, with client-side support for other targets using a &lt;ClientOnly&gt; wrap
 </template>
 ```
 
-#tab3
-Result
-:: -->
+::
+
+## Result
+
+:TeleportsDemo

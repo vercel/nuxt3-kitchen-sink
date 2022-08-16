@@ -33,10 +33,10 @@
 					// 	title: 'Layouts',
 					// 	path: 'layouts'
 					// },
-					// {
-					// 	title: 'Server Routes',
-					// 	path: 'server-routes'
-					// },
+					{
+						title: 'Server Routes',
+						path: 'server-routes'
+					},
 
 					{
 						title: 'Teleports',
