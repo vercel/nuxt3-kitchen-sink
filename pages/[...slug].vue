@@ -5,20 +5,46 @@
 </template>
 
 <style>
+	body {
+		margin: 8px;
+		line-height: normal;
+	}
+
+	p {
+		margin: 1em 0;
+	}
+
+	hr {
+		border: 1px inset;
+		box-sizing: border-box;
+		margin: 0.5em auto;
+	}
+
 	h1 {
-		@apply text-4xl my-8 font-bold;
+		font-size: 2em;
+		font-weight: bold;
+		margin: 0.67em 0;
 	}
 
 	h2 {
-		@apply text-2xl my-6 font-bold;
+		font-size: 1.5em;
+		font-weight: bold;
+		margin: 0.83em 0;
 	}
+
 	h3 {
-		@apply text-xl my-6 font-bold;
+		font-size: 1.17em;
+		font-weight: bold;
+		margin: 1em 0;
 	}
-	p {
-		@apply my-1;
+
+	ol {
+		list-style-type: decimal;
+		margin: 1em 0;
+		padding: 0 0 0 40px;
 	}
 	ul {
-		@apply list-disc ml-10;
+		list-style-type: circle;
+		margin-left: 20px;
 	}
 </style>

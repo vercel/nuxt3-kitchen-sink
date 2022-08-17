@@ -21,21 +21,9 @@
 			return {
 				toggleOpen: true,
 				tabs: [
-					// {
-					// 	title: 'Auto Imports',
-					// 	path: 'auto-imports'
-					// },
-					// {
-					// 	title: 'Routing',
-					// 	path: 'routing'
-					// },
-					// {
-					// 	title: 'Layouts',
-					// 	path: 'layouts'
-					// },
 					{
 						title: 'Server Routes',
-						path: 'server-routes'
+						path: '/server-routes'
 					},
 
 					{
@@ -55,17 +43,9 @@
 						path: '/nuxt-loading-indicator'
 					},
 					// {
-					// 	title: 'Typescript',
-					// 	path: 'typescript'
+					// 	title: 'Image Optimization',
+					// 	path: '/image'
 					// },
-					// {
-					// 	title: 'Error handling',
-					// 	path: 'error-handling'
-					// },
-					{
-						title: 'Image Optimization',
-						path: '/image'
-					},
 					{
 						title: 'Nuxt Link',
 						path: '/nuxt-link-component'

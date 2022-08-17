@@ -13,7 +13,7 @@
 				placeholder="Username"
 			/>
 		</p>
-		<NuxtLink to="/private" class="rounded-md text-secondary bg-primary p-3"
+		<NuxtLink to="/private" class="p-3 text-sm font-medium text-dark uppercase bg-primary rounded"
 			>Visit Secret page</NuxtLink
 		>
 	</div>

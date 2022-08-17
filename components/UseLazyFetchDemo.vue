@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full p-6 rounded mb-8 bg-light">
+	<div class="">
 		<div v-if="pending">Loading ...</div>
 		<div v-else>
 			<div v-for="post in posts" :key="post.id" class="mb-4">
@@ -17,7 +17,7 @@
 <script setup>
 	const { pending, data: posts } = useLazyFetch('https://api.nuxtjs.dev/posts');
 	watch(posts, (newPosts) => {
-		console.log('here');
+		console.log(newPosts);
 		// Because posts starts out null, you won't have access
 		// to its contents immediately, but you can watch it.
 	});

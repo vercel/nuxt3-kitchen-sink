@@ -73,7 +73,7 @@ This behaves identically to useFetch with the lazy: true option set, so the asyn
 
 ### Result
 
-:UseLazyFetchDemo
+:UseLazyFetchDemoContainer
 
 ## useAsyncData
 
@@ -86,24 +86,30 @@ You can use `useAsyncData` to get access to data that resolves asynchronously. `
 /server/api/count.ts
 #code1
 
-```js
+```ts
 let counter = 0;
-export default () => {
+export default defineEventHandler(() => {
 	counter++;
 	return JSON.stringify(counter);
-};
+});
 ```
 
-#tab2
+::
+
+::CodeBlock
+
+#tab1
 /pages/index.vue
-#code2
+#code1
 
 ```vue
 <script setup>
 	const { data } = await useAsyncData('count', () => $fetch('/api/count'));
 </script>
 
-<template>Page visits: {{ data }}</template>
+<template>
+	<div>Page visits: {{ data }}</div>
+</template>
 ```
 
 ::
