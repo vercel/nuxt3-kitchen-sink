@@ -1,21 +1,12 @@
-# Nuxt 3 Minimal Starter
+# Nuxt 3 Kitchen Sink Template
+
+This template is an open-source, customizable template built with Nuxt3 and Tailwind CSS. It highlights Nuxt3 features that work great with Vercel!
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
-## Setup
+## Deploy Your Own
 
-Make sure to install the dependencies:
-
-```bash
-# yarn
-yarn install
-
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
-```
+[![Deploy with Vercel](https://vercel.com/button)](TODO)
 
 ## Development Server
 
@@ -24,19 +15,3 @@ Start the development server on http://localhost:3000
 ```bash
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
