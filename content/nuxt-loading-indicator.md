@@ -11,10 +11,7 @@ Let's use these props to customize our loading indicator.
 
 ## Code
 
-::CodeBlock
-#tab1
-app.vue
-#code1
+#### `app.vue`
 
 ```vue
 <template>
@@ -24,8 +21,6 @@ app.vue
 	</NuxtLayout>
 </template>
 ```
-
-::
 
 ## Result
 

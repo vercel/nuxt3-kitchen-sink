@@ -1,7 +1,7 @@
 <template>
-	<div class="relative rounded-md bg-secondary mt-4">
-		<div class="flex items-center pt-2 pl-4 text-dark mb-4">
-			<div class="bg-primary px-2 mr-2 text-sm rounded-md">
+	<div class="relative mt-4 rounded-md bg-secondary">
+		<div class="flex items-center pt-2 pl-4 mb-4 text-dark">
+			<div class="px-2 mr-2 text-sm rounded-md bg-primary">
 				<slot name="tab1" />
 			</div>
 		</div>
