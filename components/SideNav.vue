@@ -3,11 +3,11 @@
 		<div class="w-full h-full p-5 bg-white border rounded-md shadow-lg border-light">
 			<div class="flex items-center justify-between mb-6">
 				<div class="flex items-center">
-					<img src="/assets/logo-vercel.svg" class="h-6" />
+					<img src="/logo-vercel.svg" class="h-6" />
 					<div class="mx-1 font-bold">+</div>
-					<img src="/assets/logo-nuxt.png" class="h-6" />
+					<img src="/logo-nuxt.png" class="h-6" />
 				</div>
-				<img src="/assets/menu-close.png" class="h-6" @click="$emit('toggleOpen', false)" />
+				<img src="/menu-close.png" class="h-6" @click="$emit('toggleOpen', false)" />
 			</div>
 			<div
 				v-for="tab in tabs"
