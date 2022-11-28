@@ -1,11 +1,8 @@
 # Edge Functions
 
-## Edge Function Example
+Edge functions allow you to deliver content to your site's visitors with speed and personalization. They are deployed globally on Vercel's Edge Network and enable you to move server-side logic to the Edge, close to your visitor's origin.
 
-::CodeBlock
-#tab1
-/pages/index.vue
-#code1
+#### `/pages/index.vue`
 
 ```vue
 <script setup>
@@ -33,13 +30,7 @@
 </template>
 ```
 
-::
-
-::CodeBlock
-
-#tab1
-/server/api/info.ts
-#code1
+#### `/server/api/info.ts`
 
 ```ts
 export default eventHandler((event) => {
@@ -54,8 +45,6 @@ export default eventHandler((event) => {
 	};
 });
 ```
-
-::
 
 ## Result
 

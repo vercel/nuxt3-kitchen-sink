@@ -5,6 +5,9 @@
 </template>
 
 <style>
+	pre {
+		@apply p-6 mb-8 font-mono text-sm rounded-b-lg bg-dark text-light;
+	}
 	body {
 		margin: 8px;
 		line-height: normal;
@@ -36,6 +39,10 @@
 		font-size: 1.17em;
 		font-weight: bold;
 		margin: 1em 0;
+	}
+
+	h4 {
+		@apply bg-dark text-primary rounded-t-lg px-6 pt-6 text-xs;
 	}
 
 	ol {

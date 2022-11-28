@@ -7,10 +7,7 @@ only, with client-side support for other targets using a `ClientOnly` wrapper.
 
 ## Code
 
-::CodeBlock
-#tab1
-/pages/index.vue
-#code1
+#### `/pages/index.vue`
 
 ```vue
 <template>
@@ -25,8 +22,6 @@ only, with client-side support for other targets using a `ClientOnly` wrapper.
 	</ClientOnly>
 </template>
 ```
-
-::
 
 ## Result
 

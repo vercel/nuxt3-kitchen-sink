@@ -10,10 +10,7 @@ There are three kinds of route middleware:
 
 Test out named middleware in the following example! Without entering your user name, you will be blocked from visiting the private page.
 
-::CodeBlock
-#tab1
-/middleware/auth.ts
-#code1
+#### `/middleware/auth.ts`
 
 ```ts
 export default defineNuxtRouteMiddleware((to, from) => {
@@ -26,13 +23,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
 });
 ```
 
-::
-
-::CodeBlock
-
-#tab1
-/pages/private.vue
-#code1
+#### `/pages/private.vue`
 
 ```vue
 <script setup>
@@ -50,13 +41,7 @@ export default defineNuxtRouteMiddleware((to, from) => {
 </template>
 ```
 
-::
-
-::CodeBlock
-
-#tab1
-/pages/indev.vue
-#code1
+#### `/pages/indev.vue`
 
 ```vue
 <script setup>
@@ -72,8 +57,6 @@ export default defineNuxtRouteMiddleware((to, from) => {
 	</div>
 </template>
 ```
-
-::
 
 ## Result
 

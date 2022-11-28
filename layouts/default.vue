@@ -1,5 +1,5 @@
 <template>
-	<div class="md:flex">
+	<div class="justify-center w-full md:flex">
 		<SideNav
 			v-if="toggleOpen"
 			:tabs="tabs"
@@ -7,9 +7,9 @@
 			@toggleOpen="toggleOpen = $event"
 		/>
 		<div v-else class="p-8">
-			<img @click="toggleOpen = true" src="/assets/menu-open.png" class="h-7" />
+			<img @click="toggleOpen = true" src="/menu-open.png" class="h-7" />
 		</div>
-		<div class="w-full max-h-screen overflow-y-auto md:pt-16 px-9 pb-9">
+		<div class="w-full max-w-5xl max-h-screen px-12 overflow-y-auto pb-9">
 			<slot />
 		</div>
 	</div>

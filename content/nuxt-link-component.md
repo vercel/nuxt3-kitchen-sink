@@ -4,10 +4,7 @@
 
 ## Code
 
-::CodeBlock
-#tab1
-/pages/index.vue
-#code1
+#### `/pages/index.vue`
 
 ```vue
 <template>
@@ -28,8 +25,6 @@
 	</div>
 </template>
 ```
-
-::
 
 ## Result
 

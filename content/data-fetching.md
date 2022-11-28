@@ -8,10 +8,7 @@ You can use useFetch to universally fetch from any URL.
 
 ### Code
 
-::CodeBlock
-#tab1
-/pages/index.vue
-#code1
+#### `/pages/index.vue`
 
 ```vue
 <script setup>
@@ -30,8 +27,6 @@ You can use useFetch to universally fetch from any URL.
 </template>
 ```
 
-::
-
 ### Result
 
 :UseFetchDemo
@@ -42,10 +37,7 @@ This behaves identically to useFetch with the lazy: true option set, so the asyn
 
 ### Code
 
-::CodeBlock
-#tab1
-/pages/index.vue
-#code1
+#### `/pages/index.vue`
 
 ```vue
 <template>
@@ -69,8 +61,6 @@ This behaves identically to useFetch with the lazy: true option set, so the asyn
 </script>
 ```
 
-::
-
 ### Result
 
 :UseLazyFetchDemoContainer
@@ -81,10 +71,7 @@ You can use `useAsyncData` to get access to data that resolves asynchronously. `
 
 ### Code
 
-::CodeBlock
-#tab1
-/server/api/count.ts
-#code1
+#### `/server/api/count.ts`
 
 ```ts
 let counter = 0;
@@ -94,13 +81,7 @@ export default defineEventHandler(() => {
 });
 ```
 
-::
-
-::CodeBlock
-
-#tab1
-/pages/index.vue
-#code1
+#### `/pages/index.vue`
 
 ```vue
 <script setup>
@@ -111,8 +92,6 @@ export default defineEventHandler(() => {
 	<div>Page visits: {{ data }}</div>
 </template>
 ```
-
-::
 
 ### Result
 
