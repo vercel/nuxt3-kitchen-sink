@@ -21,6 +21,10 @@ export default defineNuxtConfig({
 		dirs: ['~/components']
 	},
 	content: {
+		highlight: {
+			preload: ['javascript', 'vue', 'html'],
+			theme: 'monokai'
+		}
 		// https://content.nuxtjs.org/api/configuration
 	},
 	image: {
