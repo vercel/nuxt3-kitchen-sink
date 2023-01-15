@@ -25,6 +25,6 @@ Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 Start the development server on http://localhost:3000
 
 ```bash
-pnpm i --shamefully-hoist
-pnpm run dev
+yarn
+yarn dev
 ```
