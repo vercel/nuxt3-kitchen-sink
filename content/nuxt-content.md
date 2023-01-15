@@ -1,8 +1,8 @@
 # Nuxt Content
 
-Nuxt Content reads the content/ directory in your project, parses .md, .yml, .csv and .json files to create a powerful data layer for your application. Use Vue components in Markdown with the MDC syntax.
+Nuxt Content reads the `content/` directory in your project, parses `.md`, `.yml`, `.csv` and `.json` files to create a powerful data layer for your application. Use Vue components in Markdown with the MDC syntax.
 
-## Install the the @nuxt/content module:
+## Install the the `@nuxt/content` module:
 
 #### `yarn`
 
@@ -27,12 +27,11 @@ pnpm add -D @nuxt/content
 #### `nuxt.config.ts`
 
 ```js
-import { defineNuxtConfig } from 'nuxt';
 export default defineNuxtConfig({
-	modules: ['@nuxt/content'],
-	content: {
-		// https://content.nuxtjs.org/api/configuration
-	}
+  modules: ['@nuxt/content'],
+  content: {
+    // https://content.nuxtjs.org/api/configuration
+  },
 });
 ```
 
@@ -44,9 +43,9 @@ To render content pages, add a catch-all route using the ContentDoc component:
 
 ```vue
 <template>
-	<main>
-		<ContentDoc />
-	</main>
+  <main>
+    <ContentDoc />
+  </main>
 </template>
 ```
 
