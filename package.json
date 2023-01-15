@@ -1,8 +1,5 @@
 {
   "private": true,
-    "engines": {
-      "pnpm": ">= 7.25.0"
-    },
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
