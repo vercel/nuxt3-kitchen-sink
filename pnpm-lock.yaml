@@ -1,9 +1,9 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@nuxt/content': 2.3.0
-  '@nuxtjs/tailwindcss': 6.2.0
-  nuxt: 3.0.0
+  '@nuxt/content': ^2.3.0
+  '@nuxtjs/tailwindcss': ^6.2.0
+  nuxt: ^3.0.0
 
 devDependencies:
   '@nuxt/content': 2.3.0
