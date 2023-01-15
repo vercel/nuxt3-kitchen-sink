@@ -11,8 +11,5 @@
     "@nuxt/content": "2.3.0",
     "@nuxtjs/tailwindcss": "6.2.0",
     "nuxt": "3.0.0"
-  },
-  "dependencies": {
-    "@nuxt/image-edge": "1.0.0-27840416.dc1ed65"
   }
 }

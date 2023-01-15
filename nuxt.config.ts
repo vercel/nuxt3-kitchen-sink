@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ['@nuxt/content', '@nuxt/image-edge', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
   vue: {
     compilerOptions: {
       isCustomElement: (tag) => ['UseFetchDemo'].includes(tag),
@@ -16,8 +16,5 @@ export default defineNuxtConfig({
       preload: ['javascript', 'vue', 'html'],
       theme: 'monokai',
     },
-  },
-  image: {
-    // Options
   },
 });
