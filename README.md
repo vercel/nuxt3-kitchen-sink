@@ -25,6 +25,8 @@ Look at the [Nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 Start the development server on http://localhost:3000
 
 ```bash
-yarn
-yarn dev
+git clone https://github.com/vercel/nuxt3-kitchen-sink.git
+cd nuxt3-kitchen-sink
+pnpm i
+pnpm dev
 ```
